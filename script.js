@@ -42,3 +42,15 @@ function render(){
         <p id='museumPhrase'>${fishData['museum-phrase']}</p>
     `);
 };
+
+// figuring out how to make catch-phrase appear letter by letter
+// how can I call this function inside render()?
+/*
+const showText = function(target, message, index, interval) {
+    if (index < message.length) {
+        $(target).append(message[index++]);
+        setTimeout(function () {
+            showText(target, message, index, interval); }, interval);
+    }
+}
+*/
