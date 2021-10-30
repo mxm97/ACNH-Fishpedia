@@ -3,6 +3,15 @@
     margin: 0;
 }
 
+:root {
+    --background: #E5FFB3;
+    --background-accent: #DBF8A3;
+    --background-accent-2: #BDE66E;
+    --light: #92DE34;
+    --dark: #69BC22;
+    --text: #025600;
+  }
+
 body {
     background-color: mintcream;
     min-height: 100vh;
@@ -22,6 +31,23 @@ h1 {
     height: auto;
     background-color: rgb(218, 255, 255);
     margin: auto;
+}
+
+#searchButton{
+    display: block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: var(--light);
+    width: 250px;
+    height: 70px;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text);
+    background-size: 100% 100%;
+    box-shadow: 0 0 0 7px var(--light) inset;
+    margin-bottom: 15px;
 }
 
 /* figuring out how to add a "typewriter" style animation
