@@ -10,6 +10,7 @@ const $form = $('form');
 const $main = $('main');
 
 // Event Listeners
+$form.on('submit', handleSubmit);
 
 // Functions
 function handleSubmit(evt) {
