@@ -3,15 +3,6 @@
     margin: 0;
 }
 
-:root {
-    --background: #E5FFB3;
-    --background-accent: #DBF8A3;
-    --background-accent-2: #BDE66E;
-    --light: #92DE34;
-    --dark: #69BC22;
-    --text: #025600;
-  }
-
 body {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -27,10 +18,34 @@ h1 {
     text-shadow: 2px 3px 5px #000000;
 }
 
+form {
+    text-align: center;
+}
+
+main {
+    margin-top: 50px;
+}
+
+p {
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+#images{
+    text-align: center;
+    background-color: #DBF8A3;
+}
+
 #fishImage {
     width: 40rem;
     height: auto;
-    background-color: #DBF8A3;
+    margin: auto;
+}
+
+#icon {
+    margin-top: 25rem;
+    width: 10rem;
+    height: auto;
     margin: auto;
 }
 
