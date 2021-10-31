@@ -8,7 +8,7 @@ let fishData;
 const $input = $('input[type="text"]');
 const $form = $('form');
 const $main = $('main');
-const $fishImage = $('#fishImage');
+const $images = $('#images');
 
 // Event Listeners
 $form.on('submit', handleSubmit);
@@ -40,9 +40,11 @@ function render(){
         <h3>Museum Phrase: </h3>
         <p id='museumPhrase'>${fishData['museum-phrase']}</p>
     `);
-    $fishImage.html(`
+    $images.html(`
     <h3>Image: </h3>
     <img id='fishImage' src=${fishData.image_uri}/>
+    <h3>Icon: </h3>
+    <img id='icon' src=${fishData.icon_uri}/>
     `);
 };
 
