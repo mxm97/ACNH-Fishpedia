@@ -8,7 +8,7 @@ body {
     grid-template-columns: 1fr 1fr;
     height: 100vh;
     margin: 0;
-    background-color: #E5FFB3;
+    background: url('https://i.redd.it/y5mzeig307b41.png');
     font-family: "Nunito", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
 }
 
@@ -24,6 +24,11 @@ form {
 
 main {
     margin-top: 50px;
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
 }
 
 p {
@@ -33,7 +38,12 @@ p {
 
 #images{
     text-align: center;
-    background-color: #DBF8A3;
+    background-color: rgb(203, 255, 233);
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
 }
 
 #fishImage {
@@ -49,7 +59,30 @@ p {
     margin: auto;
 }
 
-
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
 
 /* figuring out how to add a "typewriter" style animation
 #catchPhrase {
