@@ -31,7 +31,7 @@ function handleSubmit(evt) {
 function render(){
     // this design ensures image is not kept on page after subsquent searches
     $main.html(`
-        <h3>Fish Name: </h3> 
+        <h3 id='firstHeader' >Fish Name: </h3> 
         <p id='fishName''>${fishData.name['name-USen']}</p>  
         <h3>Price: </h3> 
         <p id='price'>${fishData.price} Bells</p>
@@ -41,10 +41,10 @@ function render(){
         <p id='museumPhrase'>${fishData['museum-phrase']}</p>
     `);
     $images.html(`
-    <h3>Image: </h3>
-    <img id='fishImage' src=${fishData.image_uri}/>
-    <h3>Icon: </h3>
-    <img id='icon' src=${fishData.icon_uri}/>
+        <h3>Image: </h3>
+        <img id='fishImage' src=${fishData.image_uri}/>
+        <h3>Icon: </h3>
+        <img id='icon' src=${fishData.icon_uri}/>
     `);
 };
 
