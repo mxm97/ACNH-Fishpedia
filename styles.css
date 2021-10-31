@@ -13,10 +13,11 @@
   }
 
 body {
-    background-color: mintcream;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    margin: 0;
+    background-color: #E5FFB3;
     font-family: "Nunito", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
 }
 
@@ -27,28 +28,13 @@ h1 {
 }
 
 #fishImage {
-    width: 45rem;
+    width: 40rem;
     height: auto;
-    background-color: rgb(218, 255, 255);
+    background-color: #DBF8A3;
     margin: auto;
 }
 
-#searchButton{
-    display: block;
-    cursor: pointer;
-    outline: none;
-    border: none;
-    background-color: var(--light);
-    width: 250px;
-    height: 70px;
-    border-radius: 30px;
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--text);
-    background-size: 100% 100%;
-    box-shadow: 0 0 0 7px var(--light) inset;
-    margin-bottom: 15px;
-}
+
 
 /* figuring out how to add a "typewriter" style animation
 #catchPhrase {
