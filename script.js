@@ -1,5 +1,5 @@
 // Constants
-const BASE_URL = 'http://acnhapi.com/v1a/fish/';
+const BASE_URL = 'https://acnhapi.com/v1a/fish/';
 
 // State Variables
 let fishData;
