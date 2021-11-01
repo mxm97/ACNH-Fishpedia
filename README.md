@@ -15,6 +15,8 @@ A simple web app for returning info on all fish present in Animal Crossing: New 
 
 # Getting Started
 [Click Here](https://acnh-fishpedia.netlify.app/) to see the site live.
+- Fish can be searched for by name or by numerical ID
+- Fish with 2+ word names must have an underscore between each word (ex. pale_chub)
 
 ## Future Enhancements
 - Add ability to search for bugs, furniture, villagers
