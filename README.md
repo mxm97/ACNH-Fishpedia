@@ -6,7 +6,7 @@ A simple web app for returning info on all fish present in Animal Crossing: New 
 - CSS3
 - JavaScript
 - jQuery
-- ACNH Api
+- [ACNH Api](http://acnhapi.com/)
 
 ## Screenshots
 ![Imgur](https://i.imgur.com/hYgH8QA.png)
