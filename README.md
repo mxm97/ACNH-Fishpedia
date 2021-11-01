@@ -14,6 +14,7 @@ A simple web app for returning info on all fish present in Animal Crossing: New 
 ![Imgur](https://i.imgur.com/38HA5Q4.png)
 
 # Getting Started
+[Click Here](https://acnh-fishpedia.netlify.app/) to see the site live.
 
 ## Future Enhancements
 - Add ability to search for bugs, furniture, villagers
