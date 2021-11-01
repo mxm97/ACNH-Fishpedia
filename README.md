@@ -9,9 +9,9 @@ A simple web app for returning info on all fish present in Animal Crossing: New 
 - ACNH Api
 
 ## Screenshots
-![Imgur](https://imgur.com/hYgH8QA)
+![Imgur](https://i.imgur.com/hYgH8QA.png)
 
-![Imgur](https://imgur.com/38HA5Q4)
+![Imgur](https://i.imgur.com/38HA5Q4.png)
 
 # Getting Started
 
