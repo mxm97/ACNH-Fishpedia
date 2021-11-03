@@ -10,6 +10,7 @@ body {
     margin: 0;
     background: url('https://i.redd.it/y5mzeig307b41.png');
     font-family: "Nunito", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    /* multiple fonts in case one isn't supported by a browser*/
 }
 
 h1 {
@@ -77,6 +78,8 @@ p {
 #museumPhrase {
     padding-bottom: 25px;
 }
+
+/* animation styling for different browsers */
 
 @keyframes fadeIn {
     0% {opacity:0;}
